@@ -7,11 +7,12 @@ public class Spawns : MonoBehaviour
     public float tiempomax, tiempomin;
     public float tiempo;
     public GameObject[] obstaculos;
-
+    private vida refVida;
 
     // Start is called before the first frame update
     void Start()
     {
+        refVida = FindObjectOfType<vida>();
         StartCoroutine(spawnearobstaculos());
     }
 
@@ -23,12 +24,12 @@ public class Spawns : MonoBehaviour
 
     IEnumerator spawnearobstaculos()
     {
-        while (true)
+        while (refVida.hp > 0)
         {
             tiempo = Random.Range(tiempomin, tiempomax);
             yield return new WaitForSeconds(tiempo);
             Instantiate(obstaculos[Random.Range(0, obstaculos.Length)], transform.position, Quaternion.identity);
         }
-
+        yield break;
     }
 }
