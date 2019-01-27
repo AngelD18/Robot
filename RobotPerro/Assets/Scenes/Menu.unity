@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 446341460}
   - component: {fileID: 446341459}
   m_Layer: 5
-  m_Name: Iniciar
+  m_Name: btnIniciar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 1258721133}
   - component: {fileID: 1258721132}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btnCreditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
