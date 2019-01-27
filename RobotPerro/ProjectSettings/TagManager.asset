@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstaculos
+  - SafePath
   layers:
   - Default
   - TransparentFX

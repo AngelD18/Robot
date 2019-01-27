@@ -6,12 +6,15 @@ public class Moves : MonoBehaviour
 {
 
     public float distance;
-    private vida vida;
     public int puntos;
+    public int descontarVidaCantidad = 10;
+
+    private vida refVida;
+    public Score refScore;
 
     private void Start()
     {
-        vida = GetComponent<vida>();
+        refVida = GetComponent<vida>();
     }
 
     private void Update()
@@ -30,16 +33,25 @@ public class Moves : MonoBehaviour
 
         }
 
-        
+
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Obstaculos")
+        switch (collision.gameObject.tag)
         {
-            print(collision.gameObject.name);
-            vida.DescontarVida(10f);
-            Destroy(collision.gameObject);
+            case "Obstaculos":
+                print(collision.gameObject.name);
+                refVida.DescontarVida(descontarVidaCantidad);
+                Destroy(collision.gameObject);
+                break;
+            case "SafePath":
+                refScore.SumarPuntos(10);
+                break;
+            default:
+                Debug.Log("Chocaste con algo desconocido");
+                break;
         }
+
     }
 }

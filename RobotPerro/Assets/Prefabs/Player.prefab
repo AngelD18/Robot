@@ -2748,8 +2748,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.1690223, z: 1}
-  m_Center: {x: 0, y: 0.58451116, z: 0}
+  m_Size: {x: 0.7528135, y: 1.512912, z: 0.6171452}
+  m_Center: {x: -0.02181068, y: 0.9125663, z: -0.11070985}
 --- !u!114 &929117476457378824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2765,6 +2765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 1.6
   puntos: 0
+  descontarVidaCantidad: 10
+  refScore: {fileID: 0}
 --- !u!1 &935585733156762399
 GameObject:
   m_ObjectHideFlags: 0
@@ -29917,6 +29919,30 @@ PrefabInstance:
     - target: {fileID: 142454299, guid: a63da5cd413a2194686a6381e4c3c7ec, type: 3}
       propertyPath: m_Name
       value: CHA_charles
+      objectReference: {fileID: 0}
+    - target: {fileID: 142454302, guid: a63da5cd413a2194686a6381e4c3c7ec, type: 3}
+      propertyPath: m_Size.y
+      value: 1.512912
+      objectReference: {fileID: 0}
+    - target: {fileID: 142454302, guid: a63da5cd413a2194686a6381e4c3c7ec, type: 3}
+      propertyPath: m_Center.y
+      value: 0.9125663
+      objectReference: {fileID: 0}
+    - target: {fileID: 142454302, guid: a63da5cd413a2194686a6381e4c3c7ec, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7528135
+      objectReference: {fileID: 0}
+    - target: {fileID: 142454302, guid: a63da5cd413a2194686a6381e4c3c7ec, type: 3}
+      propertyPath: m_Center.x
+      value: -0.02181068
+      objectReference: {fileID: 0}
+    - target: {fileID: 142454302, guid: a63da5cd413a2194686a6381e4c3c7ec, type: 3}
+      propertyPath: m_Center.z
+      value: -0.11070985
+      objectReference: {fileID: 0}
+    - target: {fileID: 142454302, guid: a63da5cd413a2194686a6381e4c3c7ec, type: 3}
+      propertyPath: m_Size.z
+      value: 0.6171452
       objectReference: {fileID: 0}
     - target: {fileID: 9176102524770396452, guid: a63da5cd413a2194686a6381e4c3c7ec,
         type: 3}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawns: MonoBehaviour
+public class Spawns : MonoBehaviour
 {
     public float tiempomax, tiempomin;
     public float tiempo;
@@ -13,25 +13,22 @@ public class Spawns: MonoBehaviour
     void Start()
     {
         StartCoroutine(spawnearobstaculos());
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     IEnumerator spawnearobstaculos()
     {
+        while (true)
+        {
+            tiempo = Random.Range(tiempomin, tiempomax);
+            yield return new WaitForSeconds(tiempo);
+            Instantiate(obstaculos[Random.Range(0, obstaculos.Length)], transform.position, Quaternion.identity);
+        }
 
-        tiempo = Random.Range(tiempomin, tiempomax);
-        yield return new WaitForSeconds(tiempo);
-        Instantiate(obstaculos[Random.Range(0, obstaculos.Length)],transform.position,Quaternion.identity);
-        StartCoroutine(spawnearobstaculos());
-
-
-   
     }
 }
