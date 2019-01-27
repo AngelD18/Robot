@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 508210888}
   - component: {fileID: 508210887}
   m_Layer: 5
-  m_Name: Text
+  m_Name: textMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1042,7 +1042,7 @@ GameObject:
   - component: {fileID: 928437062}
   - component: {fileID: 928437061}
   m_Layer: 8
-  m_Name: Text (1)
+  m_Name: textGameOver
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 1072094589}
   - component: {fileID: 1072094588}
   m_Layer: 5
-  m_Name: Text
+  m_Name: textVida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b1870e50c6ace4dac638bd1709a87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaJugador: {fileID: 0}
+  vidaJugador: {fileID: 142454300}
   puntos: 0
   puntosSegundo: 5
   UIPuntos: {fileID: 0}
