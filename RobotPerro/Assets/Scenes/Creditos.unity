@@ -187,7 +187,7 @@ PrefabInstance:
     - target: {fileID: 5015255393313168613, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -41
+      value: -19.6
       objectReference: {fileID: 0}
     - target: {fileID: 5015255393313168613, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
@@ -282,27 +282,40 @@ PrefabInstance:
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 19.35
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -122.2
+      value: -114
       objectReference: {fileID: 0}
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 198.7
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 207.78
       objectReference: {fileID: 0}
+    - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.025
+      objectReference: {fileID: 0}
     - target: {fileID: 654106772990045534, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 654106772990045534, guid: a40b76e86078fb644a5d6616bc2501a6,
+        type: 3}
+      propertyPath: m_Text
+      value: "Hernandez Agustin- Programacion\nMaggini Marianela- Programacion\nOyarce
+        Adri\xE1n- Animacion 3D\nPuebla Angel- Programacion\nPuebla Leonardo- Programacion\nRomera
+        Matias- Game Designe\nSartori German - Musica\nSosa Laura- Programacion\nSantin
+        Silvana- Programacion\n"
       objectReference: {fileID: 0}
     - target: {fileID: 654106772813487278, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
