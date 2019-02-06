@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -192,17 +192,17 @@ PrefabInstance:
     - target: {fileID: 5015255393313168613, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 152
+      value: 150.1
       objectReference: {fileID: 0}
     - target: {fileID: 5015255393313168613, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 335.61
+      value: 335.6
       objectReference: {fileID: 0}
     - target: {fileID: 5015255393313168613, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 80.39
+      value: 77.5
       objectReference: {fileID: 0}
     - target: {fileID: 5015255393313168613, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
@@ -252,12 +252,12 @@ PrefabInstance:
     - target: {fileID: 654106772783330283, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 19.35001
+      value: 10.11
       objectReference: {fileID: 0}
     - target: {fileID: 654106772783330283, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 21.750004
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 654106772783330283, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
@@ -269,16 +269,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 43.5
       objectReference: {fileID: 0}
-    - target: {fileID: 654106772783330280, guid: a40b76e86078fb644a5d6616bc2501a6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 654106772783330280, guid: a40b76e86078fb644a5d6616bc2501a6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -287,7 +277,7 @@ PrefabInstance:
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -114
+      value: -85.3
       objectReference: {fileID: 0}
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
@@ -297,25 +287,12 @@ PrefabInstance:
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 207.78
+      value: 265
       objectReference: {fileID: 0}
     - target: {fileID: 654106772990045521, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.025
-      objectReference: {fileID: 0}
-    - target: {fileID: 654106772990045534, guid: a40b76e86078fb644a5d6616bc2501a6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 654106772990045534, guid: a40b76e86078fb644a5d6616bc2501a6,
-        type: 3}
-      propertyPath: m_Text
-      value: "Hernandez Agustin- Programacion\nMaggini Marianela- Programacion\nOyarce
-        Adri\xE1n- Animacion 3D\nPuebla Angel- Programacion\nPuebla Leonardo- Programacion\nRomera
-        Matias- Game Designe\nSartori German - Musica\nSosa Laura- Programacion\nSantin
-        Silvana- Programacion\n"
       objectReference: {fileID: 0}
     - target: {fileID: 654106772813487278, guid: a40b76e86078fb644a5d6616bc2501a6,
         type: 3}
@@ -326,6 +303,29 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -259
+      objectReference: {fileID: 0}
+    - target: {fileID: 654106772783330280, guid: a40b76e86078fb644a5d6616bc2501a6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 654106772783330280, guid: a40b76e86078fb644a5d6616bc2501a6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 654106772990045534, guid: a40b76e86078fb644a5d6616bc2501a6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 654106772990045534, guid: a40b76e86078fb644a5d6616bc2501a6,
+        type: 3}
+      propertyPath: m_Text
+      value: "Hern\xE1ndez Agustin- Programaci\xF3n\nMaggini Marianela- Programaci\xF3n\nOyarce
+        Adri\xE1n- Arte\nPuebla Angel- Programaci\xF3n\nPuebla Leonardo- Programaci\xF3n\nRomera
+        Mati\xE1s- Game Designe\nSosa Laura- Programaci\xF3n\nSant\xEDn Silvana- Programaci\xF3n\n\nBanda
+        sonora y efectos de sonidos creados por Sartori Germ\xE1n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a40b76e86078fb644a5d6616bc2501a6, type: 3}

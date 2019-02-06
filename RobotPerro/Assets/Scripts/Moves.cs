@@ -19,7 +19,7 @@ public class Moves : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && transform.position.z < 2.93)
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && transform.position.z < 2.66)
 
         {
             transform.position = new Vector3(0, 0, distance + transform.position.z);
@@ -43,7 +43,10 @@ public class Moves : MonoBehaviour
             case "Obstaculos":
                 print(collision.gameObject.name);
                 refVida.DescontarVida(descontarVidaCantidad);
-                Destroy(collision.gameObject);
+                collision.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                collision.transform.GetChild(0).gameObject.SetActive(true);
+                collision.gameObject.GetComponent<AudioSource>().Play();
+                Destroy(collision.gameObject, 3);
                 break;
             case "SafePath":
                 refScore.SumarPuntos(10);
